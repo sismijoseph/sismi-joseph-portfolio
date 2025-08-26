@@ -3,24 +3,14 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 
 const projects = [
-  {
-    title: "Quiz App",
-    description:
-      "A cross-platform mobile quiz application built with React Native, Expo, Firebase, and custom payment integration.",
-    github: "https://github.com/yourusername/quiz-app",
-  },
+
   {
     title: "Portfolio Website",
     description:
       "A personal portfolio built using Next.js and Tailwind CSS with sections for About, Skills, Projects, and Contact.",
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://github.com/sismijoseph/sismi-joseph-portfolio",
   },
-  {
-    title: "Backend API with NestJS",
-    description:
-      "Developed scalable REST APIs with NestJS, PostgreSQL, and TypeORM for managing users, payments, and quizzes.",
-    github: "https://github.com/yourusername/nest-backend",
-  },
+
 ];
 
 const Projects = () => {

@@ -56,6 +56,8 @@ export default function About() {
         {expanded ? "Show Less" : "Read More"}
       </button>
     </section>
+
+    
     <Skills/>
     <WorkExperience/>
     <Education/>

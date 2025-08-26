@@ -30,7 +30,7 @@ export default function Contact() {
                     >
                         <FaPhone className="text-green-600 text-4xl mb-4" />
                         <h3 className="text-xl font-semibold text-blue-400 mb-2">Phone</h3>
-                        <p className="text-white-600">+91 98765 43210</p>
+                        <p className="text-white-600">+971 551560815</p>
                     </a>
                 </div>
 

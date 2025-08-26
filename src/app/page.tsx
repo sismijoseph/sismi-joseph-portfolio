@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       {/* Navbar */}
-    <Navbar/>
+      <Navbar />
       {/* Hero Section */}
       <main
         id="home"
@@ -45,22 +45,31 @@ export default function Home() {
               <FaLinkedin />
             </a>
             <a
-              href="https://github.com/your-github-id"
+              href="https://github.com/sismijoseph"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-black text-3xl"
             >
               <FaGithub />
             </a>
+            <a
+              href="/Sismi_Joseph-Resume.pdf" 
+              rel="noopener noreferrer"
+              className="px-6 py-3 bg-gray-900 text-white rounded-sm shadow hover:bg-gray-900 transition"
+            >
+              Resume
+            </a>
+       
           </div>
+
         </div>
 
       </main>
-      
-        <About />
-<Projects/>
-        <Contact/>
-        <Footer/>
+
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }
