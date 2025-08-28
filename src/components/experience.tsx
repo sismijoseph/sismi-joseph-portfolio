@@ -46,23 +46,30 @@ const experiences: Experience[] = [
 
 export default function WorkExperience() {
   return (
-  <section
-  id="experience"
-  className="py-12 flex flex-col items-center justify-center px-6 bg-black-50 text-gray-900"
->
-      <h2 className="text-4xl font-bold mb-12 text-white">Work Experience</h2>
-      <div className="max-w-4xl w-full space-y-10">
+    <section
+      id="experience"
+      className="py-10 sm:py-12 flex flex-col items-center justify-center px-4 sm:px-6 bg-black text-gray-900"
+    >
+      <h2 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 text-white">
+        Work Experience
+      </h2>
+
+      <div className="max-w-4xl w-full space-y-6 sm:space-y-10">
         {experiences.map((exp, index) => (
           <div
             key={index}
-            className="bg-grey-900 shadow-lg rounded-2xl p-6 border-l-4 border-blue-600"
+            className="bg-gray-900 shadow-lg rounded-2xl p-4 sm:p-6 border-l-4 border-blue-600"
           >
-            <h3 className="text-2xl font-semibold text-blue-400">{exp.role}</h3>
-            <p className="text-lg text-white">
+            <h3 className="text-xl sm:text-2xl font-semibold text-blue-400">
+              {exp.role}
+            </h3>
+            <p className="text-base sm:text-lg text-white">
               {exp.company} – {exp.location}
             </p>
-            <p className="text-sm text-white mb-4">{exp.duration}</p>
-            <ul className="list-disc list-inside space-y-2 text-white">
+            <p className="text-xs sm:text-sm text-gray-300 mb-3 sm:mb-4">
+              {exp.duration}
+            </p>
+            <ul className="list-disc list-inside space-y-1 sm:space-y-2 text-sm sm:text-base text-white">
               {exp.points.map((point, idx) => (
                 <li key={idx}>{point}</li>
               ))}
