@@ -8,13 +8,13 @@ import Projects from "./project/page";
 
 export default function Home() {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white md:pt-10 sm:pt-0">
 
       <Navbar />
 
       <main
         id="home"
-        className="flex flex-col md:flex-row items-center justify-center text-center md:text-left p-6 md:p-12 gap-8 md:gap-12 mt-25"
+        className="flex flex-col bg-black md:flex-row items-center justify-center text-center md:text-left p-6 md:p-12 gap-8 md:gap-14"
       >
 
         <div className="w-40 h-40 md:w-48 md:h-48 mb-6 md:mb-0">

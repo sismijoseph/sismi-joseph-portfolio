@@ -7,7 +7,8 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-gray-900 shadow-md px-6 py-4 flex justify-between items-center z-50">
+    <div className="pt-20"> 
+    <nav className="fixed top-0 left-0 w-full bg-gray-900 shadow-md px-6 py-6 flex justify-between items-center z-50">
       {/* Logo / Name */}
       <h2 className="text-xl md:text-2xl font-bold text-white">
         Sismi Joseph
@@ -71,5 +72,6 @@ export default function Navbar() {
         </div>
       )}
     </nav>
+    </div>
   );
 }

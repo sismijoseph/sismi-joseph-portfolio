@@ -9,10 +9,10 @@ export default function About() {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white md:pt-20 sm:pt-0">
       <section
         id="about"
-        className="flex flex-col items-center justify-center px-4 sm:px-6 md:px-12 py-10 sm:py-12 text-center"
+        className="flex flex-col items-center justify-center px-10 sm:px-6 md:px-12 py-15 sm:py-12 text-center"
       >
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">About Me</h2>
 
