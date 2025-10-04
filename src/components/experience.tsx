@@ -12,10 +12,10 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    role: "React Native Developer",
+    role: "Full Stack Developer",
     company: "Reidis Interactive",
     location: "Dubai, UAE",
-    duration: "Feb 2025 – Present",
+    duration: "Feb 2025 – September 2025",
     points: [
       "Collaborated with an experienced software engineering team to enhance backend development and research analysis.",
       "Gained expertise in team leadership, requirement analysis, estimation, design, implementation, and testing.",

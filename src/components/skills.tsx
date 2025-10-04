@@ -1,5 +1,5 @@
 import { FaReact, FaNodeJs, FaJs } from "react-icons/fa";
-import { SiExpo, SiNestjs, SiTypescript, SiMongodb, SiTypeorm, SiNextdotjs } from "react-icons/si";
+import { SiExpo, SiNestjs, SiTypescript, SiMongodb, SiTypeorm, SiNextdotjs, SiExpress } from "react-icons/si";
 
 export default function Skills() {
     return (
@@ -18,6 +18,15 @@ export default function Skills() {
                         <div className="bg-blue-500 h-3 rounded-full w-[90%]"></div>
                     </div>
                     <p className="mt-2 text-xs sm:text-sm text-gray-400">Proficient (90%)</p>
+                </div>
+
+                <div className="bg-gray-900 p-4 sm:p-6 rounded-2xl shadow-lg flex flex-col items-center">
+                    <FaReact className="text-cyan-400 text-4xl sm:text-5xl mb-4" />
+                    <h3 className="text-lg sm:text-xl font-semibold mb-2">ReactJS</h3>
+                    <div className="w-full bg-gray-700 rounded-full h-3">
+                        <div className="bg-cyan-400 h-3 rounded-full w-[85%]"></div>
+                    </div>
+                    <p className="mt-2 text-xs sm:text-sm text-gray-400">Advanced (85%)</p>
                 </div>
 
                 <div className="bg-gray-900 p-4 sm:p-6 rounded-2xl shadow-lg flex flex-col items-center">
@@ -48,15 +57,6 @@ export default function Skills() {
                 </div>
 
                 <div className="bg-gray-900 p-4 sm:p-6 rounded-2xl shadow-lg flex flex-col items-center">
-                    <SiTypescript className="text-blue-400 text-4xl sm:text-5xl mb-4" />
-                    <h3 className="text-lg sm:text-xl font-semibold mb-2">TypeScript</h3>
-                    <div className="w-full bg-gray-700 rounded-full h-3">
-                        <div className="bg-blue-400 h-3 rounded-full w-[70%]"></div>
-                    </div>
-                    <p className="mt-2 text-xs sm:text-sm text-gray-400">Intermediate (70%)</p>
-                </div>
-
-                <div className="bg-gray-900 p-4 sm:p-6 rounded-2xl shadow-lg flex flex-col items-center">
                     <FaJs className="text-yellow-400 text-4xl sm:text-5xl mb-4" />
                     <h3 className="text-lg sm:text-xl font-semibold mb-2">JavaScript</h3>
                     <div className="w-full bg-gray-700 rounded-full h-3">
@@ -69,9 +69,27 @@ export default function Skills() {
                     <FaNodeJs className="text-green-500 text-4xl sm:text-5xl mb-4" />
                     <h3 className="text-lg sm:text-xl font-semibold mb-2">NodeJS</h3>
                     <div className="w-full bg-gray-700 rounded-full h-3">
-                        <div className="bg-green-500 h-3 rounded-full w-[40%]"></div>
+                        <div className="bg-green-500 h-3 rounded-full w-[70%]"></div>
                     </div>
-                    <p className="mt-2 text-xs sm:text-sm text-gray-400">Beginner (40%)</p>
+                    <p className="mt-2 text-xs sm:text-sm text-gray-400">Intermediate (70%)</p>
+                </div>
+
+                <div className="bg-gray-900 p-4 sm:p-6 rounded-2xl shadow-lg flex flex-col items-center">
+                    <SiExpress className="text-white text-4xl sm:text-5xl mb-4" />
+                    <h3 className="text-lg sm:text-xl font-semibold mb-2">ExpressJS</h3>
+                    <div className="w-full bg-gray-700 rounded-full h-3">
+                        <div className="bg-white h-3 rounded-full w-[65%]"></div>
+                    </div>
+                    <p className="mt-2 text-xs sm:text-sm text-gray-400">Intermediate (65%)</p>
+                </div>
+
+                <div className="bg-gray-900 p-4 sm:p-6 rounded-2xl shadow-lg flex flex-col items-center">
+                    <SiTypescript className="text-blue-400 text-4xl sm:text-5xl mb-4" />
+                    <h3 className="text-lg sm:text-xl font-semibold mb-2">TypeScript</h3>
+                    <div className="w-full bg-gray-700 rounded-full h-3">
+                        <div className="bg-blue-400 h-3 rounded-full w-[70%]"></div>
+                    </div>
+                    <p className="mt-2 text-xs sm:text-sm text-gray-400">Intermediate (70%)</p>
                 </div>
 
                 <div className="bg-gray-900 p-4 sm:p-6 rounded-2xl shadow-lg flex flex-col items-center">

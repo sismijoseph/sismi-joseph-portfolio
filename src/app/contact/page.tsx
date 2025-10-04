@@ -29,7 +29,7 @@ export default function Contact() {
                     >
                         <FaPhone className="text-green-600 text-3xl sm:text-4xl mb-3 sm:mb-4" />
                         <h3 className="text-lg sm:text-xl font-semibold text-blue-400 mb-1 sm:mb-2">Phone</h3>
-                        <p className="text-gray-300 text-sm sm:text-base">+971 551560815</p>
+                        <p className="text-gray-300 text-sm sm:text-base">+971 542549471</p>
                     </a>
                 </div>
 
