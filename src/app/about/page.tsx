@@ -18,14 +18,14 @@ export default function About() {
 
         {!expanded ? (
           <p className="max-w-lg sm:max-w-2xl text-base sm:text-lg text-gray-300 leading-relaxed">
-            I&apos;m a Software Engineer with 3+ years of experience in building
+            I&apos;m a Software Engineer with 4+ years of experience in building
             cross-platform mobile apps and web applications. I specialize in
             React Native, Expo, Next.js, and NestJS.
           </p>
         ) : (
 
           <p className="max-w-lg sm:max-w-3xl text-base sm:text-lg text-gray-300 leading-relaxed text-justify sm:text-center">
-            I am a Software Engineer with 3+ years of experience in UI and
+            I am a Software Engineer with 4+ years of experience in UI and
             Front-End development. I specialize in cross-platform mobile apps
             using <b>React Native & Expo</b>, web applications with{" "}
             <b>Next.js</b>, and backend services with <b>NestJS & TypeORM</b>. I
