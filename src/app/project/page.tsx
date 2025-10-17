@@ -9,17 +9,23 @@ const projects = [
       "A personal portfolio built using Next.js and Tailwind CSS with sections for About, Skills, Projects, and Contact.",
     github: "https://github.com/sismijoseph/sismi-joseph-portfolio",
   },
-    {
+  {
     title: "Expense Tracker",
     description:
       "A cross-platform mobile app built using React Native and NestJS to manage daily expenses with authentication, data storage, and analytics.",
-    github: "https://github.com/sismijoseph/Expense-Tracker", 
+    github: "https://github.com/sismijoseph/Expense-Tracker",
   },
   {
     title: "Food App",
     description:
       "A full-stack food ordering application built with React.js, Express.js, and MongoDB, featuring user authentication, menu browsing, and order management.",
     github: "https://github.com/sismijoseph/Food-app"
+  },
+  {
+    title: "Blog Application",
+    description:
+      "A responsive blog website developed using Python (Django) and HTML, featuring CRUD operations and a clean Bootstrap-based UI for reading and managing posts.",
+    github: "https://github.com/sismijoseph/blog",
   },
 ];
 
